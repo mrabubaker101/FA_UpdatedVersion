@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2022-08-06T20:39:57.1742117Z;False|2022-08-07T01:39:08.7942289+05:00;False|2022-08-07T01:38:06.9636180+05:00;True|2022-08-07T01:37:04.3751247+05:00;False|2022-08-07T01:36:16.0804444+05:00;False|2022-08-07T01:35:32.9340850+05:00;True|2022-08-07T01:34:54.5843562+05:00;True|2022-08-06T01:50:28.8379681+05:00;True|2022-08-06T00:16:52.8336736+05:00;True|2022-08-05T21:32:33.5531809+05:00;True|2022-08-04T02:42:37.9146484+05:00;True|2022-08-04T02:12:27.6982645+05:00;True|2022-08-04T02:02:50.2667243+05:00;True|2022-08-04T01:03:47.2537648+05:00;True|2022-08-02T12:55:19.0923088+05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=MUHAMMAD-ABU-BA\SQLEXPRESS%3bDatabase=PA_Finance%3bIntegrated Security=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
