@@ -9,6 +9,7 @@ let{ Heading,Content,open,Closer,children,BusyState=false}=props
     fullWidth 
 //    fullScreen
     maxWidth='md'
+    //scroll='body'
     > 
         <u><DialogTitle>{Heading}</DialogTitle></u>
         {Content?.Length > 0 ?<DialogContent>{Content}</DialogContent>:null} 

@@ -14,6 +14,11 @@ import UsingRedux from '../REDUXLearn/UsingRedux';
 import UsingFiles from '../FileWork/UsingFiles';
 import NewVoucher from '../Finance/Vouchers/NewVoucher';
 import MainComp from '../ReuseableCompo/ComponentTemplates/MainComp';
+import MainCompo from '../Practices/ContextAPIs/Level1/MainComp';
+import MainCompoEasy from '../Practices/ContextAPIs/Level2/MainCompoEasy';
+import MainCompo_FR from '../Practices/ForwardRefWork/MainCompo';
+import UserNotes from '../Notes/UserNotes';
+import PrintPage from '../ReuseableCompo/Printing/PrintPage';
  /*
 <>    
         {/* <Route path="/" element={<MainPage {...props}/>} > */
@@ -44,6 +49,11 @@ import MainComp from '../ReuseableCompo/ComponentTemplates/MainComp';
         <Route path="/usingfile" element={<UsingFiles />} />
         <Route path="/voucher" element={<NewVoucher />} />
         <Route path="/mycomponents" element={<MainComp />} />
+        <Route path="/usingContextApi" element={<MainCompo />} />
+        <Route path="/usingContextApiEasy" element={<MainCompoEasy />} />
+        <Route path="/usingForwardref" element={<MainCompo_FR />} />
+        <Route path="/usingprinting" element={<PrintPage />} />
+        <Route path="UsingNotes" element={<UserNotes /> }/> 
         <Route path="*" element={<WrongPage /> }/> 
       </Routes>
        </div> 

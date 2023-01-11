@@ -429,7 +429,7 @@ const MainAppBar = (props) => {
 {/* FOOTER */}
     <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={9}>
         <BottomNavigation showLabels >
-          {/* <BottomNavigationAction label="Recents"  /> */}
+          <BottomNavigationAction label="Recents"  />
           <h5>{Date()}</h5>
          </BottomNavigation>
         </Paper> 
